@@ -1,0 +1,161 @@
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation ul {
+  color: black;
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 30px;
+}
+
+.navigation  li.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+#banner {
+  background-image: url("https://images.unsplash.com/photo-1575621205435-1f88289dcc4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 300px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 60px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 866px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 3px solid white;
+  color: black;
+  font-size: 33px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+    line-height: 28px;
+  margin-top: 30px;
+  padding: 10px 20px;
+   text-align: left;
+
+}
+
+.container {
+	background: orange;
+	position: center;
+	padding: 15px;
+	margin: 0 auto;
+	width: 96%; 
+	float: left;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+    -webkit-column-rule: 1px solid red; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid red; /* Firefox */
+    column-rule: 1px solid red;
+    }
+
+img
+{ max-width: 95%;
+	padding-top: 20px;
+
+	a#back-to-top {
+	width: 200px;
+	height: 200px;
+	background: red;
+	border: 2px inset red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+a#back-to-top:hover {
+	border: 2px inset blue;
+	background: blue;
+	color: yellow;
+}
+
+a#back-to-top span {
+	display: block;
+	padding-top: 88px;
+}
+
+
+#back-to-top {text-decoration: none;
+font-size: 20px;
+color: white}
